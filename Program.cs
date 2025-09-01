@@ -2,37 +2,43 @@
 using System.Runtime.InteropServices;
 using dio.Model;
 
-
-// se executar assim sem dar um limite ao contador com ++, vai executar para sempre loop infinito.
-// int numero = 5;
-
-// while (true)
-
-// {   
+string opcao;
 
 
-//     for (int contador = 1; contador <= 10; contador++)
-//         Console.WriteLine($"{numero} x {contador} = {numero * contador}");
 
-// }
-
-
-// Agora com o contador ++, ele vai executar 10 vezes e parar.
-int numero = 5;
-int contador = 0;
-while (contador <= 10)
-
-
+while (true)
 
 {
+    Console.Clear();
+    Console.WriteLine("Digite a sua opção: ");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
 
-    Console.WriteLine($"{contador}° {numero} x {contador} = {numero * contador}");
-    contador++;
-        // break; // com o break ele para a execução do laço, quando chegar no loop 6, mesmo que a condição seja verdadeira.
-        if (contador == 6)
-        {
+    opcao = Console.ReadLine();
+
+    switch(opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
             break;
-        }   
+        case "2":
+            Console.WriteLine("Busca de cliente");
+            break;
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+        case "4":
+            Console.WriteLine("Encerrar");
+            Environment.Exit(0);
+            break;
+
+         default:
+            Console.WriteLine("Opção inválida");
+            break;   
+    }   
+    
 }
 
 
@@ -51,6 +57,67 @@ while (contador <= 10)
 
 
 
+
+
+
+
+
+
+
+
+
+// int soma = 0, numero = 0; // posso declarar + de uma variável na mesma linha contanto que sejam do mesmo tipo.
+
+// do
+// {
+//     Console.WriteLine("digite um número (0 para sair)");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero; // soma = soma + numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine($"A soma dos números digitados é: {soma}");
+
+
+
+
+
+
+
+
+
+// se executar assim sem dar um limite ao contador com ++, vai executar para sempre loop infinito.
+
+// int numero = 5;
+//int contador = 1;
+
+// while (contador <= 10) ou poderia ser assim tbm:while (true)
+
+// {  
+
+//     for (int contador = 1; contador <= 10; contador++)
+//         Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+
+// }
+
+
+// Agora com o contador ++, ele vai executar 10 vezes e parar.
+// int numero = 5;
+// int contador = 0;
+// while (contador <= 10)
+
+
+
+// {
+
+//     Console.WriteLine($"{contador}° {numero} x {contador} = {numero * contador}");
+//     contador++;
+//         // break; // com o break ele para a execução do laço, quando chegar no loop 6, mesmo que a condição seja verdadeira.
+//         if (contador == 6)
+//         {
+//             break;
+//         }
 
 
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabio\\OneDrive\\Documentos\\estudos-programador\\dio\\dio.csproj",
+      "projectUniqueName": "C:\\Users\\fabio\\OneDrive\\Documentos\\estudos-programador\\dio-bootcamp\\dio.csproj",
       "projectName": "dio",
-      "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\estudos-programador\\dio\\dio.csproj",
+      "projectPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\estudos-programador\\dio-bootcamp\\dio.csproj",
       "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\estudos-programador\\dio\\obj\\",
+      "outputPath": "C:\\Users\\fabio\\OneDrive\\Documentos\\estudos-programador\\dio-bootcamp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config"
