@@ -3,10 +3,10 @@ using System.Runtime.InteropServices;
 using dio.Model;
 
 string opcao;
+bool exibirMenu = true;
 
 
-
-while (true)
+while (exibirMenu)
 
 {
     Console.Clear();
@@ -18,7 +18,7 @@ while (true)
 
     opcao = Console.ReadLine();
 
-    switch(opcao)
+    switch (opcao)
     {
         case "1":
             Console.WriteLine("Cadastro de cliente");
@@ -34,26 +34,16 @@ while (true)
             Environment.Exit(0);
             break;
 
-         default:
+        default:
             Console.WriteLine("Opção inválida");
-            break;   
-    }   
-    
+            //Environment.Exit(0); vai encerrar o programa aqui. não vai mostrar a ultima mensagem.
+            break;
+
+    }
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine("o Program se encerrou");
 
 
 

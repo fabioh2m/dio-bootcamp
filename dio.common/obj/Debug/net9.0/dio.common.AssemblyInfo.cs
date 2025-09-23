@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("dio")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("dio.common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcec8972b29083e3885431224660566fc7af6228")]
-[assembly: System.Reflection.AssemblyProductAttribute("dio")]
-[assembly: System.Reflection.AssemblyTitleAttribute("dio")]
+[assembly: System.Reflection.AssemblyProductAttribute("dio.common")]
+[assembly: System.Reflection.AssemblyTitleAttribute("dio.common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
